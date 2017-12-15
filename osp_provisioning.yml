@@ -38,9 +38,8 @@
     debug: var=frontendserverfloatingip.floating_ip.floating_ip_address
   - name: Show frontendserver private IP
     debug: var=frontendserverip.openstack.private_v4
-- hosts: jumpbox
-#- hosts: localhost
-  gather_facts: false
+ - hosts: jumpbox
+   gather_facts: false
   vars:
     appserver_name: app1
     flavor_name: m2.small
@@ -79,7 +78,7 @@
     debug: var=appserverfloatingip.floating_ip.floating_ip_address
   - name: Show appserver private IP
     debug: var=appserverip.openstack_server.private_v4
-#- hosts: localhost
+
  - hosts: jumpbox
   gather_facts: false
   vars:
