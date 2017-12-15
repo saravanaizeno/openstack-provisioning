@@ -39,7 +39,7 @@
   - name: Show frontendserver private IP
     debug: var=frontendserverip.openstack.private_v4
  
--hosts: jumpbox
+- hosts: jumpbox
  gather_facts: false
  vars:
    appserver_name: app1
