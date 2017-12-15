@@ -46,9 +46,9 @@
    flavor_name: m2.small
    appserver_group: app
    deployment: dev
- tasks:
- - name: Create a server instance
-   os_server:
+  tasks:
+  - name: Create a server instance
+    os_server:
      cloud: ospcloud
      name: "{{ appserver_name }}"
      image: rhel-guest
