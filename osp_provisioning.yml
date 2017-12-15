@@ -40,8 +40,8 @@
     debug: var=frontendserverip.openstack.private_v4
  
 - hosts: jumpbox
- gather_facts: false
- vars:
+  gather_facts: false
+  vars:
    appserver_name: app1
    flavor_name: m2.small
    appserver_group: app
