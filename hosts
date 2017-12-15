@@ -1,0 +1,9 @@
+[frontend]
+frontend1-a2a2.rhpds.opentlc.com
+
+[app]
+app1-a2a2.rhpds.opentlc.com
+app2-a2a2.rhpds.opentlc.com
+
+[appdbs]
+db1-a2a2.rhpds.opentlc.com
